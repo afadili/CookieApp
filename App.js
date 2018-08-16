@@ -1,13 +1,11 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
+Amina FADILI 
+Copyright 2018
  */
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -35,9 +33,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#19CBC6',
+    fontFamily: 'Montserrat-Black'
   },
   welcome: {
-    fontFamily: 'notoserif',
+    fontFamily: 'Montserrat-Black',
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
@@ -50,5 +49,6 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     fontWeight: 'bold',
     fontSize: 20,
+    fontFamily: 'Montserrat-Black'
   },
 });
